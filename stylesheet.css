@@ -1,0 +1,101 @@
+body {
+		background-image: url(images/background_grass.jpg);
+}
+
+#wrap {
+		background-color: transparent;
+		height: 1250px;
+		width: auto;
+}
+
+header {
+		text-align: center;
+		color: orange;
+		font-family:helvetica;
+		font-size: 50px;
+}
+
+header:hover {
+		color:grey;
+}
+
+h1 {	text-align: center;
+		color: orange;
+		font-family: helvetica;
+		font-size: 25px;
+}
+
+h1:hover {
+		color:grey;
+}
+
+h2	{	
+		text-align: center;
+		color: orange;
+		font-family: helvetica;
+		font-size: 25px;
+}
+
+h2:hover {
+		color:silver;
+}
+
+a:link	{	
+		color: orange;
+		font-family: helvetica;
+		text-decoration: none;
+	}
+
+a:hover { color:grey;
+}
+
+a:active {
+		color:purple;
+}
+div ul {
+		color: orange;
+		font-family: helvetica;
+		font-size: 25px;
+		background-color: transparent;
+		margin-top: 50px;
+		margin-left: 25px;
+}
+
+li {
+		display: inline;
+		padding:15px;
+		font-family: helvetica;
+}
+
+div ul li:hover {
+		color:grey;
+}
+
+footer {
+		text-align: right;
+		color: orange;
+		font-family: inherit;
+		font-size: 20px;
+}
+
+#contact header {
+		text-align: center;
+		color: orange;
+		font-family:helvetica;
+		font-size: 50px;
+		margin-top: 50px;
+}
+
+#header {
+		text-align: center;
+		color: orange;
+		font-family:helvetica;
+		font-size: 30px;
+		margin-top: 35px;
+}
+
+#header:hover {
+		color:grey;
+}
+
+
