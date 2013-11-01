@@ -13,20 +13,26 @@ header {
 		color: orange;
 		font-family:helvetica;
 		font-size: 50px;
+		background-color: #fafafa;
 }
 
 header:hover {
-		color:grey;
+		color:silver;
+		
+		
 }
+
 
 h1 {	text-align: center;
 		color: orange;
 		font-family: helvetica;
 		font-size: 25px;
+		background-color: #fafafa;
 }
 
 h1:hover {
-		color:grey;
+		color:silver;
+		
 }
 
 h2	{	
@@ -34,68 +40,174 @@ h2	{
 		color: orange;
 		font-family: helvetica;
 		font-size: 25px;
+		background-color: #fafafa;
 }
 
 h2:hover {
 		color:silver;
+		
 }
+
 
 a:link	{	
 		color: orange;
 		font-family: helvetica;
 		text-decoration: none;
 	}
-
-a:hover { color:grey;
+a:visited {
+		color:orange;
+		text-decoration: none;
+}
+a:hover { 
+		color:silver;
 }
 
-a:active {
-		color:purple;
-}
 div ul {
 		color: orange;
 		font-family: helvetica;
 		font-size: 25px;
-		background-color: transparent;
 		margin-top: 50px;
-		margin-left: 25px;
+		margin-left: 0;
+		background-color: #fafafa;
+		
+}
+
+div ul li:hover {
+		color: silver;
+		font-size: 35px;
+		background-color: white;
 }
 
 li {
 		display: inline;
 		padding:15px;
 		font-family: helvetica;
+		
 }
 
-div ul li:hover {
-		color:grey;
-}
-
-footer {
-		text-align: right;
+ol {
 		color: orange;
-		font-family: inherit;
-		font-size: 20px;
+		font-family: helvetica;
+		font-size: 25px;
+		margin-left: 65px;
+		margin-top: -15px;
+		
 }
 
-#contact header {
+ol:hover {
+		color:silver;
+}
+
+
+#conheader {
 		text-align: center;
 		color: orange;
 		font-family:helvetica;
 		font-size: 50px;
 		margin-top: 50px;
+		background-color: #fafafa;
+
+}
+
+#conheader:hover{
+		color:white;
+		background-color: grey;
 }
 
 #header {
 		text-align: center;
 		color: orange;
 		font-family:helvetica;
-		font-size: 30px;
-		margin-top: 35px;
+		font-size: 50px;
+		margin-top: 25px;
+		background-color: #fafafa;
 }
 
 #header:hover {
-		color:grey;
+		color:silver;
+		
 }
+
+#subheader {
+		text-align: center;
+		color: orange;
+		font-family:helvetica;
+		font-size: 25px;
+		margin-top: inherit;
+		background-color: #fafafa;
+}
+
+#subheader:hover {
+		color:silver;
+}
+
+
+
+#call {
+		text-align: center;
+		color: orange;
+		font-family:helvetica;
+		font-size: 30px;
+		margin-top: 35px;
+		background-color: #fafafa;
+
+}
+
+#call:hover {
+		color:silver;
+}
+
+#list {
+		color: orange;
+		font-family: helvetica;
+		font-size: 25px;
+		background-color: #fafafa;
+		margin-bottom: 25px;
+		
+}
+
+# list:hover {
+		color:silver;
+}
+
+#bigbox {
+		display: inline-block;
+		background-color: transparent;
+		padding: 15px;
+		
+}
+
+
+#listbox {
+		background-color: transparent;
+		padding: 15px;
+		float:left;
+		background-color: #fafafa;
+		margin-left: 25px
+}
+
+#rightbox {
+		background-color: transparent;
+		padding: 15px;
+		float:right;
+		margin-left: 125px;
+		background-color: #fafafa;
+}
+
+
+p {
+		color:orange;
+		font-family: helvetica;
+		font-size: 30px;
+		margin-left: 35px;
+}
+footer {
+		text-align: right;
+		color: orange;
+		font-family: helvetica;
+		font-size: 20px;
+		background-color: #fafafa;
+}
+
 
 
