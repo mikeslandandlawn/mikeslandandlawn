@@ -166,9 +166,26 @@ ol:hover {
 		font-size: 25px;
 		background-color: #fafafa;
 		margin-bottom: 25px;
+		margin-left: 35px;
+		float:left;
 		
 }
 #list:hover {
+		color:silver;
+		font-size: 30px;
+}
+
+#list2 {
+		color: orange;
+		font-family: helvetica;
+		font-size: 25px;
+		background-color: #fafafa;
+		margin-bottom: 25px;
+		margin-right: 500px;
+		float:right;
+		
+}
+#list2:hover {
 		color:silver;
 		font-size: 30px;
 }
